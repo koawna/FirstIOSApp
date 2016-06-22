@@ -26,15 +26,6 @@
                                     <rect key="frame" x="90" y="28" width="221" height="70"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk4-Uz-2pO">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="300"/>
-                                <color key="textColor" red="0.29830046449999997" green="0.83883236880000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="110" y="134" width="180" height="324"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLL-MJ-glS">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.90031561179999997" green="0.97177004089999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,22 +54,31 @@
                                     <action selector="increaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ePD-BO-ptM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gk4-Uz-2pO">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="250"/>
+                                <color key="textColor" red="0.29830046449999997" green="0.83883236880000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="50" y="129" width="300" height="324"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="hHC-L8-NeG"/>
-                                <exclude reference="gk4-Uz-2pO"/>
                                 <exclude reference="iLL-MJ-glS"/>
                                 <exclude reference="PLN-Za-z8E"/>
+                                <exclude reference="gk4-Uz-2pO"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="hHC-L8-NeG"/>
-                                <include reference="gk4-Uz-2pO"/>
                                 <include reference="iLL-MJ-glS"/>
                                 <include reference="PLN-Za-z8E"/>
+                                <include reference="gk4-Uz-2pO"/>
                             </mask>
                         </variation>
                     </view>
